@@ -3,17 +3,15 @@ import { TiHtml5 } from "react-icons/ti";
 import { PiFileCssFill } from "react-icons/pi";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoPhp } from "react-icons/bi";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaPython, FaGitAlt, FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import { FaLaravel } from "react-icons/fa";
-import { FaSymfony } from "react-icons/fa6";
-import { FaJava } from "react-icons/fa6";
+import { FaSymfony, FaJava } from "react-icons/fa6";
 
 const Skills = () => {
 
     const skillsData = [
         { name: 'PHP', iconClass: <BiLogoPhp size={30}/> },
+        { name: 'Python', iconClass: <FaPython size={30}/> },
         { name: 'JAVA', iconClass: <FaJava size={30}/> },
         { name: 'HTML', iconClass: <TiHtml5 size={30}/> },
         { name: 'CSS', iconClass: <PiFileCssFill size={30}/>  },
