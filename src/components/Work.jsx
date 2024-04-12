@@ -5,7 +5,7 @@ import tourApp from '../assets/projects_images/tourapp.png';
 import MovieRating from '../assets/projects_images/movies.png';
 
 const Work = () => {
-  // Dummy data for projects
+  
   const projectsData = [
     {
       id: 1,
@@ -58,11 +58,11 @@ const Work = () => {
                 <p className='text-black font-bold mb-2'>  {project.title} </p>
                 <div className='flex'>
                   {project.detailsLink && (
-                    <a href={project.detailsLink} className='mx-2' target="_blank">
+                    <a href={project.detailsLink} target='_blank' className='mx-2' >
                       <button className='bg-blue-500 text-white py-2 px-4 rounded-md'>Live demo</button>
                     </a>
                   )}
-                  <a href={project.githubLink} className='mx-2' target="_blank">
+                  <a href={project.githubLink} target='_blank' className='mx-2' >
                     <button className='bg-gray-700 text-white py-2 px-4 rounded-md'>GitHub</button>
                   </a>
                 </div>
